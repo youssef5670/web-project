@@ -131,7 +131,7 @@ export const Formulaire =()=>{
         <div className='pb-[5%] pt-[20px] mt-[-20px]'>
             {formsbmitted ?(
         
-        <div className='cv1 flex'>
+        <div className='cv1 flex justify-center'>
         <div className='part1 rounded-bl-[30px] rounded-tl-[30px] justify-between'>
 
             <div> 

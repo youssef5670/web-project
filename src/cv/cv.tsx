@@ -17,7 +17,7 @@ import '../App.css'
 export const Cv =() =>{
     return(
       <div className='mt-[-20px]'>
-        <div className='cv1 flex'>
+        <div className='cv1 flex justify-center'>
         <div className='part1 rounded-bl-[30px] rounded-tl-[30px] justify-between'>
           <Profil/>
           <Personel/>

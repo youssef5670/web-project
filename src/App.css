@@ -105,33 +105,43 @@ footer{
 .c2{
   color: rgb(62, 59, 61);
 }
-#s2:hover{
-  scale: 1.1;
-  transition-duration: 0.6s;
 
-}
-#s1:hover{
-  scale: 1.2;
-  transition-duration: 0.6s;
-
-}
 #s1:focus{
-  background-color: rgba(230, 35, 25);
-  border-radius: 10px;
+  background-color: rgba(211, 78, 78, 0.678);
+  border-radius: 15px;
   padding: 5px;
+  font-weight: 700;
   backdrop-filter: blur(5px);
-  color: rgb(253, 254, 255);
-  transition-duration: 0.6s;
+  color: rgba(255, 255, 255, 0.852);
+
+}
+#s2{
+  background-color: rgba(161, 164, 163, 0.616);
+  border-radius: 15px;
+  padding: 5px;
+
+  backdrop-filter: blur(5px);
+  color: rgba(225, 225, 225, 0.699);
+
 }
 #s2:focus{
-  background-color: rgb(36, 112, 255);
-  border-radius: 10px;
+  background-color: rgba(174, 86, 68, 0.66);
+  font-weight: 700;
+  font-size: 20px;
+  backdrop-filter: blur(5px);
+  color: rgba(255, 255, 255, 0.852);
+}
+#s1{
+  background-color: rgba(161, 164, 163, 0.616);
+  border-radius: 15px;
   padding: 5px;
   backdrop-filter: blur(5px);
-  color: rgb(254, 254, 255);
-  transition-duration: 0.6s;
-
+  color: rgba(225, 225, 225, 0.699);
 }
 .contact{
   color: black;
+}
+.nav{
+  display: flex;
+  justify-content: center;
 }
